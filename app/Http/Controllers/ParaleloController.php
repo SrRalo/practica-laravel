@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 /**
  * @OA\Info(
  *     version="1.0.0",
- *     title="API Documentation",
+ *     title="Documentacion de Práctica Estudiante-Paralelo",
  *     description="API documentation for Practica2"
  * )
  */

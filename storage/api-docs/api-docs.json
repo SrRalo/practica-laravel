@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API Documentation",
+        "title": "Documentacion de Práctica Estudiante-Paralelo",
         "description": "API documentation for Practica2",
         "version": "1.0.0"
     },
