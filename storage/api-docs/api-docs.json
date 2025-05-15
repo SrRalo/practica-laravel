@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation",
+        "description": "API documentation for Practica2",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/paralelos": {
+            "post": {
+                "summary": "Create a new paralelo",
+                "operationId": "63f2e6de83fe35723b5077a59ec0f619",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "nombre": {
+                                        "type": "string"
+                                    },
+                                    "seccion": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Paralelo created successfully"
+                    }
+                }
+            }
+        }
+    }
+}
